@@ -5,25 +5,29 @@ const Register = () => {
 
     return (
         <>
-            <p>
-                Hello future user!
-            </p>
+            <h3>
+                Hallo future user!
+            </h3>
 
-            <label>username:
-                <input />
-            </label>
-            <label>firstname:
-                <input />
-            </label>
-            <label>lastname:
-                <input />
-            </label>
-            <label>email address:
-                <input />
-            </label>
-            <label>password:
-                <input />
-            </label>
+            <div className="register-container">
+
+                <label>username:
+                    <input />
+                </label>
+                <label>firstname:
+                    <input />
+                </label>
+                <label>lastname:
+                    <input />
+                </label>
+                <label>email address:
+                    <input />
+                </label>
+                <label>password:
+                    <input />
+                </label>
+            </div>
+
         </>
 
     )
