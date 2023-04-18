@@ -4,9 +4,28 @@ import './Register.css'
 const Register = () => {
 
     return (
-        <div>
-            alert("Hello future user!")
-        </div>
+        <>
+            <p>
+                Hello future user!
+            </p>
+
+            <label>username:
+                <input />
+            </label>
+            <label>firstname:
+                <input />
+            </label>
+            <label>lastname:
+                <input />
+            </label>
+            <label>email address:
+                <input />
+            </label>
+            <label>password:
+                <input />
+            </label>
+        </>
+
     )
 
 }
