@@ -1,0 +1,46 @@
+/*1. kies een schermgrootte -> desktop*/
+/*2. reset (optioneel *niet voor mij)*/
+/*3. layout: width & flow (flex box) -> *liever geen height als het kan!*/
+/*4. fonts & fontsize*/
+/*5. padding & margin*/
+/*6. kleurtjes*/
+/*7. overig*/
+
+/*display: mobile: */
+
+/*2. reset:*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 25px;
+    background-color: cadetblue;
+    color: antiquewhite;
+}
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
