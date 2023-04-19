@@ -15,6 +15,7 @@ const Register = () => {
 
     return (
         <>
+
             <p>
                 Hello future user!
             </p>
@@ -38,6 +39,30 @@ const Register = () => {
                 <button>Register</button>
             </form>
             <button>If you already have an account, sign in here!</button>
+=======
+            <h3>
+                Hallo future user!
+            </h3>
+
+            <div className="register-container">
+
+                <label>username:
+                    <input />
+                </label>
+                <label>firstname:
+                    <input />
+                </label>
+                <label>lastname:
+                    <input />
+                </label>
+                <label>email address:
+                    <input />
+                </label>
+                <label>password:
+                    <input />
+                </label>
+            </div>
+
         </>
 
     )
